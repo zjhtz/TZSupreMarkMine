@@ -1,0 +1,6 @@
+framework module TZSupreMarkMine {
+  umbrella header "TZSupreMarkMine-umbrella.h"
+
+  export *
+  module * { export * }
+}

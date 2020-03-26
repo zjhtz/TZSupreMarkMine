@@ -1,13 +1,14 @@
 use_frameworks!
 
 platform :ios, '8.0'
-
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/zhenTangIos/privatePods.git'
 target 'TZSupreMarkMine_Example' do
   pod 'TZSupreMarkMine', :path => '../'
 
   target 'TZSupreMarkMine_Tests' do
     inherit! :search_paths
-
+    pod 'TZSupreMarkBase'
     pod 'Specta'
     pod 'Expecta'
     pod 'FBSnapshotTestCase'

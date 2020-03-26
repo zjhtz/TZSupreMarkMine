@@ -1,0 +1,6 @@
+framework module TZSupreMarkBase {
+  umbrella header "TZSupreMarkBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
